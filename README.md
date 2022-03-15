@@ -5,7 +5,7 @@ Check a Magneto PDP and trigger a notification if the product count is less than
 ## Installation
 
 ```
-git clone git@github.com:Skywire/DomChecker.git ~/DomChecker
+git clone https://github.com/Skywire/DomChecker.git ~/DomChecker
 cd DomChecker
 [python3 executable] -m pip install -r requirements.txt
 ```
