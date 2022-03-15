@@ -21,7 +21,7 @@ def count_products(search_class: str, soup: BeautifulSoup):
 def send_failure(doc, count, channel, token):
     client = WebClient(token=token)
 
-    client.chat_postMessage(channel=channel, text=f"Last 3 days contains {count} products")
+    client.chat_postMessage(channel=channel, text=f"Tested category contains {count} products")
 
     f = tempfile.NamedTemporaryFile()
     f.write(doc.encode('utf-8'))
